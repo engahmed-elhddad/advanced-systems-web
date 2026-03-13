@@ -3,6 +3,8 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "outputDirectory": ".next",
+  "cleanUrls": true,
+  "trailingSlash": false,
   "env": {
     "NEXT_PUBLIC_API_BASE_URL": "@api_base_url"
   }
